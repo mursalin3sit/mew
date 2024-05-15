@@ -24,7 +24,10 @@ import { importantLinks, resourceLinks } from "~/data/footer-data";
 </script>
 
 <style lang="scss" scoped>
-.pbr-65 {
-  padding-bottom: 65px;
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .pbr-65 {
+    padding-bottom: 65px;
+  }
 }
 </style>
